@@ -20,7 +20,7 @@ with open(input_file, 'r') as load: #insert file path here
         # load.readline()  # Skips a line
         line = load.readline()
         temp = line.split()
-
+#hiiii
 
 def events():
     for event in pygame.event.get():

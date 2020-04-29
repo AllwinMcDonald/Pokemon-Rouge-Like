@@ -28,7 +28,9 @@ def events():
             pygame.quit()
             sys.exit()
 
+#What is this??
 
+print("Hallo")
 # define display surface
 W, H = 480, 480
 SCREEN_SIZE=(480,480)

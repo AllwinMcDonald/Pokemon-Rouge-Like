@@ -3,10 +3,13 @@ import pygame
 from pygame.locals import *
 input_file = "D:\Buller_Research\Seth_Game\Pokestats.txt"
 
+from Tile_ import Tile
+
 #PokeList = [ID, Name, HP, Atk, Def, SpA, SpD, Spd, Total, Type 1, Type 2]
 PokeList = []
 PokeAdd = []
 k = 0
+T = Tile(0, 0, 0, 0)
 with open(input_file, 'r') as load: #insert file path here
     line = load.readline()
     temp = load.readline().split()

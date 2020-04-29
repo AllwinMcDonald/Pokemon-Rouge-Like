@@ -20,18 +20,14 @@ with open(input_file, 'r') as load: #insert file path here
         # load.readline()  # Skips a line
         line = load.readline()
         temp = line.split()
-#hiiii
 
-print("HALLO")
 def events():
     for event in pygame.event.get():
         if event.type == QUIT or (event.type == KEYDOWN and event.key == K_ESCAPE):
             pygame.quit()
             sys.exit()
 
-#What is this??
 
-print("Hallo")
 # define display surface
 W, H = 480, 480
 SCREEN_SIZE=(480,480)

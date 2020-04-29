@@ -22,6 +22,7 @@ with open(input_file, 'r') as load: #insert file path here
         temp = line.split()
 #hiiii
 
+print("HALLO")
 def events():
     for event in pygame.event.get():
         if event.type == QUIT or (event.type == KEYDOWN and event.key == K_ESCAPE):
